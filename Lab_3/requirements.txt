@@ -1,0 +1,15 @@
+# Основные зависимости
+requests
+beautifulsoup4
+PyPDF2
+python-docx
+
+# Для нейросетевого подхода (опционально)
+transformers
+torch
+sentence-transformers
+
+# Для API (если нужно)
+fastapi
+uvicorn
+pydantic
