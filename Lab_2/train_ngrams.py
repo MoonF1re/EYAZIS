@@ -2,13 +2,10 @@ import os
 import json
 from collections import Counter
 from utils.html_parser import extract_text_from_html
+from .detectors.ngram import get_ngrams
 
 N = 5
 TOP_K = 300
-
-
-def get_ngrams(text, n=N):
-    return [text[i:i+n] for i in range(len(text) - n + 1)]
 
 
 def build_language_profile(folder_path):

@@ -12,7 +12,7 @@ def detect_neural(text):
         ["ollama", "run", "llama3.2"],
         input=prompt,
         text=True,
-        encoding="utf-8",      # ← ВАЖНО
+        encoding="utf-8",
         capture_output=True
     )
 

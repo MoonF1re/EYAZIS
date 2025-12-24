@@ -8,7 +8,6 @@ from detectors.alphabetic import detect_alphabetic
 from detectors.ngram import detect_ngram, load_profile
 from detectors.neural import detect_neural
 from utils.io import save_to_file
-from utils.statistics import build_statistics
 
 
 class LanguageDetectorApp(tk.Tk):

@@ -13,15 +13,12 @@ def build_profile(texts):
         counter.update(get_ngrams(text))
     return dict(counter.most_common(TOP_K))
 
-def save_profile(profile, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(profile, f, ensure_ascii=False)
-
 def load_profile(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def oop_distance(lang_profile, text_profile):
+    #Счтиаем насколько сильно отличается положение N-граммы в тексте и в языке. Чем меньше тем выше вероятность.
     distance = 0
     max_penalty = len(lang_profile)
     for i, gram in enumerate(text_profile):
