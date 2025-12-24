@@ -1,0 +1,3 @@
+Programming is the process of creating software.
+Different programming languages are used for different tasks.
+Good programming practices improve code quality.

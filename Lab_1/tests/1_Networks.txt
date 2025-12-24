@@ -1,0 +1,1 @@
+Computer networks are essential for communication between devices in local area networks (LAN) and wide area networks (WAN). They enable the sharing of resources such as files, printers, and internet connections. Network security is a critical aspect of maintaining data privacy and integrity.

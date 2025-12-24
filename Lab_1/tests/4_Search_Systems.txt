@@ -1,0 +1,1 @@
+Information retrieval systems help users find relevant documents from large collections of unstructured text. These systems often use probabilistic models, vector space models, and TF-IDF weighting to rank documents according to query relevance. Evaluation metrics like precision and recall measure their effectiveness.

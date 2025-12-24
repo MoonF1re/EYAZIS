@@ -1,0 +1,1 @@
+Data science combines statistics, computer science, and domain knowledge to extract insights from data. Machine learning algorithms, data visualization, and predictive modeling are common tools in data science projects. Python and R are commonly used programming languages in this field.

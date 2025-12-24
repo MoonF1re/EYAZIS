@@ -1,0 +1,3 @@
+Databases store structured information.
+SQL is used to query relational databases.
+Database systems ensure data integrity and security.

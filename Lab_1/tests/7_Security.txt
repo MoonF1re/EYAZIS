@@ -1,0 +1,3 @@
+Computer security protects systems from attacks.
+Encryption and authentication are important security techniques.
+Network security is critical for modern infrastructures.
