@@ -65,7 +65,12 @@ class SentenceExtractionSummarizer:
             max_freq = max(term_freq.values()) if term_freq else 1
 
             for term, tf in term_freq.items():
-                # Формула из задания: w(t, D) = 0.5 * (1 + tf(t, D)/tf_max(D)) * log(DB/df(t))
+                # Формула: w(t, D) = 0.5 * (1 + tf(t, D)/tf_max(D)) * log(DB/df(t))
+                #tf(t, D) - Term Frequency: сколько раз слово встречается в документе
+                #tf_max(D) - максимальная частота любого слова в документе
+                #DB - количество документов в коллекции (наш db_size)
+                #df(t)- Document Frequency: в скольких документах встречается слово
+
                 idf = math.log(self.db_size / (self.term_doc_freq.get(term, 1) + 1))
                 tf_norm = tf / max_freq
                 term_weights[term] = 0.5 * (1 + tf_norm) * idf
@@ -77,8 +82,8 @@ class SentenceExtractionSummarizer:
         # TF-IDF часть
         tfidf_score = sum(term_weights.get(word, 0) for word in sentence_words)
 
-        # Позиционная часть (упрощенная)
-        position_score = 1 - (position / total_length) if total_length > 0 else 0.5
+        # Позиционная часть
+        position_score = 1 - (position / total_length)
 
         # Комбинированный вес
         return tfidf_score * 0.8 + position_score * 0.2

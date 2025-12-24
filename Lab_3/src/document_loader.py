@@ -43,8 +43,8 @@ class DocumentLoader:
 
         # 1. УДАЛЯЕМ ВСЁ ЛИШНЕЕ (скрипты, стили, навигация, шапка, футер)
         for element in soup(['script', 'style', 'nav', 'footer', 'header',
-                             'table', 'ul', 'ol',  # Часто списки - это навигация
-                             'div#mw-navigation', 'div#footer',  # Специфично для MediaWiki (движок Вики)
+                             'table', 'ul', 'ol',
+                             'div#mw-navigation', 'div#footer',
                              'div.mw-jump-link', 'div.vector-header-container']):
             if element:
                 element.decompose()
@@ -61,19 +61,15 @@ class DocumentLoader:
         if not main_content:
             main_content = soup
 
-        # 3. ИЗВЛЕКАЕМ ТЕКСТ, но теперь только из найденного блока
+        # 3. ИЗВЛЕКАЕМ ТЕКСТ
         text = main_content.get_text(separator=' ', strip=True)
 
-        # 4. УСИЛЕННАЯ ОЧИСТКА ПОЛУЧЕННОГО ТЕКСТА
+        # 4.ОЧИСТКА ПОЛУЧЕННОГО ТЕКСТА
         lines = []
         for line in text.splitlines():
             clean_line = line.strip()
-            # Отбрасываем строки, которые являются типичным "мусором":
-            # - Очень короткие (менее 2 символов)
-            # - Содержат только цифры и пунктуацию (например, "[1]")
-            # - Явно служебные слова (навигация)
-            if (len(clean_line) > 20 and  # Берём только достаточно длинные строки
-                    not re.match(r'^[\d\s\[\]\(\)]*$', clean_line) and  # Не только цифры/скобки
+            if (len(clean_line) > 20 and
+                    not re.match(r'^[\d\s\[\]\(\)]*$', clean_line) and
                     not any(word in clean_line.lower() for word in ['springen', 'navigation', 'benutzerkonto',
                                                                     'lesen', 'bearbeiten', 'quelltext',
                                                                     'ansehen', 'hauptmenü'])):
@@ -83,8 +79,8 @@ class DocumentLoader:
         clean_text = ' '.join(lines)
 
         # 6. Дополнительно: объединяем разорванные слова, убираем лишние пробелы
-        clean_text = re.sub(r'\s+', ' ', clean_text)  # Множественные пробелы -> один
-        clean_text = re.sub(r'\s([.,!?;:])', r'\1', clean_text)  # Убираем пробел перед знаками препинания
+        clean_text = re.sub(r'\s+', ' ', clean_text)
+        clean_text = re.sub(r'\s([.,!?;:])', r'\1', clean_text)
 
         # Ограничиваем размер на случай очень больших статей
         return clean_text[:100000]
