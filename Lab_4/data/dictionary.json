@@ -1,0 +1,486 @@
+{
+    "computer": {
+        "translation": "ordinateur",
+        "pos": "NOUN"
+    },
+    "science": {
+        "translation": "science",
+        "pos": "NOUN"
+    },
+    "study": {
+        "translation": "étude",
+        "pos": "NOUN"
+    },
+    "computational": {
+        "translation": "informatique",
+        "pos": "ADJ"
+    },
+    "systems": {
+        "translation": "systèmes",
+        "pos": "NOUN"
+    },
+    "algorithms": {
+        "translation": "algorithmes",
+        "pos": "NOUN"
+    },
+    "data": {
+        "translation": "données",
+        "pos": "NOUN"
+    },
+    "structures": {
+        "translation": "structures",
+        "pos": "NOUN"
+    },
+    "fundamental": {
+        "translation": "fondamental",
+        "pos": "ADJ"
+    },
+    "concepts": {
+        "translation": "concepts",
+        "pos": "NOUN"
+    },
+    "programming": {
+        "translation": "programmation",
+        "pos": "NOUN"
+    },
+    "artificial": {
+        "translation": "artificiel",
+        "pos": "ADJ"
+    },
+    "intelligence": {
+        "translation": "intelligence",
+        "pos": "NOUN"
+    },
+    "machine": {
+        "translation": "machine",
+        "pos": "NOUN"
+    },
+    "learning": {
+        "translation": "apprentissage",
+        "pos": "NOUN"
+    },
+    "techniques": {
+        "translation": "techniques",
+        "pos": "NOUN"
+    },
+    "solve": {
+        "translation": "résoudre",
+        "pos": "VERB"
+    },
+    "complex": {
+        "translation": "complexe",
+        "pos": "ADJ"
+    },
+    "problems": {
+        "translation": "problèmes",
+        "pos": "NOUN"
+    },
+    "python": {
+        "translation": "python",
+        "pos": "NOUN"
+    },
+    "java": {
+        "translation": "java",
+        "pos": "NOUN"
+    },
+    "popular": {
+        "translation": "populaire",
+        "pos": "ADJ"
+    },
+    "languages": {
+        "translation": "langues",
+        "pos": "NOUN"
+    },
+    "software": {
+        "translation": "logiciel",
+        "pos": "NOUN"
+    },
+    "development": {
+        "translation": "développement",
+        "pos": "NOUN"
+    },
+    "databases": {
+        "translation": "bases de données",
+        "pos": "NOUN"
+    },
+    "store": {
+        "translation": "stocker",
+        "pos": "VERB"
+    },
+    "organize": {
+        "translation": "organiser",
+        "pos": "VERB"
+    },
+    "large": {
+        "translation": "grand",
+        "pos": "ADJ"
+    },
+    "amounts": {
+        "translation": "quantités",
+        "pos": "NOUN"
+    },
+    "information": {
+        "translation": "information",
+        "pos": "NOUN"
+    },
+    "efficiently": {
+        "translation": "efficacement",
+        "pos": "ADV"
+    },
+    "networks": {
+        "translation": "réseaux",
+        "pos": "NOUN"
+    },
+    "connect": {
+        "translation": "connecter",
+        "pos": "VERB"
+    },
+    "devices": {
+        "translation": "appareils",
+        "pos": "NOUN"
+    },
+    "around": {
+        "translation": "autour",
+        "pos": "ADP"
+    },
+    "world": {
+        "translation": "monde",
+        "pos": "NOUN"
+    },
+    "literature": {
+        "translation": "littérature",
+        "pos": "NOUN"
+    },
+    "reflects": {
+        "translation": "reflète",
+        "pos": "VERB"
+    },
+    "human": {
+        "translation": "humain",
+        "pos": "ADJ"
+    },
+    "experience": {
+        "translation": "expérience",
+        "pos": "NOUN"
+    },
+    "through": {
+        "translation": "à travers",
+        "pos": "ADP"
+    },
+    "stories": {
+        "translation": "histoires",
+        "pos": "NOUN"
+    },
+    "poetry": {
+        "translation": "poésie",
+        "pos": "NOUN"
+    },
+    "characters": {
+        "translation": "personnages",
+        "pos": "NOUN"
+    },
+    "novels": {
+        "translation": "romans",
+        "pos": "NOUN"
+    },
+    "often": {
+        "translation": "souvent",
+        "pos": "ADV"
+    },
+    "face": {
+        "translation": "face",
+        "pos": "VERB"
+    },
+    "moral": {
+        "translation": "moral",
+        "pos": "ADJ"
+    },
+    "dilemmas": {
+        "translation": "dilemmes",
+        "pos": "NOUN"
+    },
+    "personal": {
+        "translation": "personnel",
+        "pos": "ADJ"
+    },
+    "conflicts": {
+        "translation": "conflits",
+        "pos": "NOUN"
+    },
+    "theme": {
+        "translation": "thème",
+        "pos": "NOUN"
+    },
+    "love": {
+        "translation": "amour",
+        "pos": "NOUN"
+    },
+    "central": {
+        "translation": "central",
+        "pos": "ADJ"
+    },
+    "many": {
+        "translation": "beaucoup",
+        "pos": "ADJ"
+    },
+    "romantic": {
+        "translation": "romantique",
+        "pos": "ADJ"
+    },
+    "works": {
+        "translation": "œuvres",
+        "pos": "NOUN"
+    },
+    "fiction": {
+        "translation": "fiction",
+        "pos": "NOUN"
+    },
+    "symbolism": {
+        "translation": "symbolisme",
+        "pos": "NOUN"
+    },
+    "allows": {
+        "translation": "permet",
+        "pos": "VERB"
+    },
+    "authors": {
+        "translation": "auteurs",
+        "pos": "NOUN"
+    },
+    "convey": {
+        "translation": "transmettre",
+        "pos": "VERB"
+    },
+    "deeper": {
+        "translation": "plus profond",
+        "pos": "ADJ"
+    },
+    "meanings": {
+        "translation": "significations",
+        "pos": "NOUN"
+    },
+    "writing": {
+        "translation": "écriture",
+        "pos": "NOUN"
+    },
+    "plot": {
+        "translation": "intrigue",
+        "pos": "NOUN"
+    },
+    "typically": {
+        "translation": "typiquement",
+        "pos": "ADV"
+    },
+    "includes": {
+        "translation": "comprend",
+        "pos": "VERB"
+    },
+    "exposition": {
+        "translation": "exposition",
+        "pos": "NOUN"
+    },
+    "rising": {
+        "translation": "montant",
+        "pos": "ADJ"
+    },
+    "action": {
+        "translation": "action",
+        "pos": "NOUN"
+    },
+    "climax": {
+        "translation": "climax",
+        "pos": "NOUN"
+    },
+    "resolution": {
+        "translation": "résolution",
+        "pos": "NOUN"
+    },
+    "shakespeare": {
+        "translation": "shakespeare",
+        "pos": "PROPN"
+    },
+    "plays": {
+        "translation": "pièces",
+        "pos": "NOUN"
+    },
+    "explore": {
+        "translation": "explorer",
+        "pos": "VERB"
+    },
+    "timeless": {
+        "translation": "intemporel",
+        "pos": "ADJ"
+    },
+    "themes": {
+        "translation": "thèmes",
+        "pos": "NOUN"
+    },
+    "power": {
+        "translation": "pouvoir",
+        "pos": "NOUN"
+    },
+    "betrayal": {
+        "translation": "trahison",
+        "pos": "NOUN"
+    },
+    "in": {
+        "translation": "dans",
+        "pos": "ADP"
+    },
+    "on": {
+        "translation": "sur",
+        "pos": "ADP"
+    },
+    "at": {
+        "translation": "à",
+        "pos": "ADP"
+    },
+    "with": {
+        "translation": "avec",
+        "pos": "ADP"
+    },
+    "by": {
+        "translation": "par",
+        "pos": "ADP"
+    },
+    "for": {
+        "translation": "pour",
+        "pos": "ADP"
+    },
+    "of": {
+        "translation": "de",
+        "pos": "ADP"
+    },
+    "to": {
+        "translation": "à",
+        "pos": "ADP"
+    },
+    "from": {
+        "translation": "de",
+        "pos": "ADP"
+    },
+    "about": {
+        "translation": "sur",
+        "pos": "ADP"
+    },
+    "as": {
+        "translation": "comme",
+        "pos": "ADP"
+    },
+    "into": {
+        "translation": "dans",
+        "pos": "ADP"
+    },
+    "after": {
+        "translation": "après",
+        "pos": "ADP"
+    },
+    "before": {
+        "translation": "avant",
+        "pos": "ADP"
+    },
+    "during": {
+        "translation": "pendant",
+        "pos": "ADP"
+    },
+    "until": {
+        "translation": "jusqu'à",
+        "pos": "ADP"
+    },
+    "over": {
+        "translation": "sur",
+        "pos": "ADP"
+    },
+    "under": {
+        "translation": "sous",
+        "pos": "ADP"
+    },
+    "between": {
+        "translation": "entre",
+        "pos": "ADP"
+    },
+    "among": {
+        "translation": "parmi",
+        "pos": "ADP"
+    },
+    "used": {
+        "translation": "usagé",
+        "pos": ""
+    },
+    "are": {
+        "translation": "sont",
+        "pos": ""
+    },
+    "computers": {
+        "translation": "ordinateurs",
+        "pos": ""
+    },
+    "is": {
+        "translation": "est",
+        "pos": ""
+    },
+    "the": {
+        "translation": "les",
+        "pos": ""
+    },
+    "uses": {
+        "translation": "utilise",
+        "pos": ""
+    },
+    "and": {
+        "translation": "et",
+        "pos": ""
+    },
+    "researchers": {
+        "translation": "chercheurs",
+        "pos": ""
+    },
+    "new": {
+        "translation": "neuf",
+        "pos": ""
+    },
+    "develop": {
+        "translation": "développer",
+        "pos": ""
+    },
+    "process": {
+        "translation": "processus",
+        "pos": ""
+    },
+    "methods": {
+        "translation": "méthodes",
+        "pos": ""
+    },
+    "describes": {
+        "translation": "décrit",
+        "pos": ""
+    },
+    "character": {
+        "translation": "personnage",
+        "pos": ""
+    },
+    "writer": {
+        "translation": "écrivain",
+        "pos": ""
+    },
+    "inner": {
+        "translation": "intérieur",
+        "pos": ""
+    },
+    "main": {
+        "translation": "principal",
+        "pos": ""
+    },
+    "story": {
+        "translation": "histoire",
+        "pos": ""
+    },
+    "a": {
+        "translation": "un",
+        "pos": ""
+    },
+    "their": {
+        "translation": "leur",
+        "pos": "PRON"
+    }
+}

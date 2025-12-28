@@ -4,8 +4,8 @@ from utils import tokenize
 
 class Document:
     documents = {}
-    inverted_index = defaultdict(set)
-    term_doc_freq = defaultdict(int)
+    inverted_index = defaultdict(set) #Термин: Список документов с этим термином.
+    term_doc_freq = defaultdict(int) #Термин: Кол-во документов с этим термином.
 
     def __init__(self, doc_id, title, text):
         self.documentID = doc_id
@@ -26,10 +26,10 @@ class Document:
         Pi = Document.term_doc_freq.get(term, 0)
         if Pi == 0:
             return 0
-        return math.log(N / Pi)
+        return math.log(N / Pi) #Вес термина
 
     def get_vector(self):
         vector = {}
         for term, q in self.term_freq.items():
             vector[term] = q * Document.get_idf(term)
-        return vector
+        return vector #Вектор документа

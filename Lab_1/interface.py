@@ -59,13 +59,3 @@ class SearchGUI:
             self.results_box.insert(tk.END, f"Title: {r.title}\nRank: {r.rank:.4f}\n")
             self.results_box.insert(tk.END, f"Matched terms: {r.matched_terms}\nSnippet: {r.snippet}\n\n")
             retrieved_ids.add(r.documentId)
-
-        if query in predefined_relevant_docs:
-            relevant_ids = predefined_relevant_docs[query]
-        else:
-            relevant_ids = set()  # пусто, если нет заранее определённых документов
-
-        self.query_results[query] = {
-            "relevant": relevant_ids,
-            "retrieved": retrieved_ids
-        }

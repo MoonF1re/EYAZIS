@@ -1,0 +1,6 @@
+Computer science is the study of computers and computational systems.
+Algorithms and data structures are fundamental concepts in programming.
+Artificial intelligence uses machine learning techniques to solve complex problems.
+Python and Java are popular programming languages used in software development.
+Databases store and organize large amounts of information efficiently.
+Networks connect computers and devices around the world.
